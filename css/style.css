@@ -51,6 +51,12 @@ img{
     text-transform: uppercase;
     border-radius: 5px;
 }
+
+.title {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
 /* Header Section */
 .main-menu {
     float: left;
@@ -156,9 +162,21 @@ input[type="search"] {
     font-size: 20px;
     text-align: justify;
 }
-
-.copywright{
+/* Experience */
+.experience {
+    padding: 10px 20px;
+    text-align: justify;
+    box-shadow: 5px 7px 40px grey;
+    border-left: 2px solid #e9b723;
+    height: 100%;
+}
+.experience h1, .experience h3 {
+    padding: 5px 5px;
+}
+.copywright {
     text-align: center;
+    margin-top: 15px;
+    background: #f7f7f7;
 }
 
 
