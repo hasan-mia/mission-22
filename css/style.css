@@ -1,0 +1,187 @@
+/* ******
+Author: Hasan Mia
+Github: https://github.com/hasanrafi69
+********/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width:100%;
+}
+/* Common conatainer Css */
+.container{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+    padding: 20px 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: 100%;
+}
+.col-2{
+    flex-wrap: wrap;
+    width: 50%;
+}
+.col-3{
+    width: 33.3%;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: 25%;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 5px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+/* Header Section */
+.main-menu {
+    float: left;
+    display: flex;
+    padding:10px 5px;
+    /* background: #f7f7f7; */
+}
+.brand {
+    font-size: 36px;
+    margin-left: 10px;
+    padding-right: 15rem;
+}
+.brand a {
+    color: #000;
+    font-weight: bold;
+}
+.brand img {
+    height: 70px;
+}
+nav.main-menu ul{
+    list-style: none;
+    /* width: 50%;
+    margin: 0 auto; */
+}
+nav.main-menu ul li {
+    display: flex;
+    padding: 10px 25px;
+    font-size: 20px;
+    float: left;
+}
+nav.main-menu ul li a {
+    color: #000;
+    font-weight: 600;
+}
+.search {
+    margin: 10px 1%;
+    position: absolute;
+    right: 0;
+}
+input[type="search"] {
+    padding: 10px;
+    border: 1px solid #8080802e;
+}
+.btn-search {
+    padding: 10px;
+    border: 1px solid #80808029;
+    margin-left: -5px;
+}
+
+#header{
+    clear: both;
+}
+/* Welcome Section */
+.welcome {
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    padding: 1rem 1rem;
+}
+.welcome h1 {
+    font-size: 40px;
+}
+.welcome h3 {
+    font-size: 24px;
+    padding: 10px 0;
+}
+.welcome p {
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-align: justify;
+}
+.top-banner img {
+    width: 65%;
+    float: right;
+    padding-right: 10px;
+}
+.orange{
+    color: orange;
+}
+
+.btn-hire{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+
+/* Dream Section */
+#deram {
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-banner img {
+    width: 65%;
+    float: left;
+}
+.dream h1{
+    font-size: 40px;
+}
+.dream h3{
+    font-size: 24px;
+    padding: 10px 0;
+}
+.dream p{
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.copywright{
+    text-align: center;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 767px){
+    .col, .col-2, .col-3, .col-4{
+        width: 100%;
+    }
+    nav.main-menu ul {
+        float: left;
+        position: absolute;
+        left: -10px;
+        top: 14%;
+        font-size: 16px;
+    }
+    nav.main-menu ul li {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .dream-banner img, .top-banner img {
+        float: left;
+        padding-left: 15%;
+        padding-right: 0;
+    }
+}
