@@ -294,9 +294,11 @@ button {
 /* Footer */
 
 .copywright {
-	text-align: center;
-	padding: 25px 0 0;
-	background: #1B1B1B;
+    text-align: center;
+    padding: 25px 0 0;
+    background: #1B1B1B;
+    font-family: cursive;
+    font-size: 30px;
 }
 
 .copywright h3 {
@@ -322,7 +324,7 @@ button {
 		max-width: 90%;
 	}
 	.brand {
-		font-size: 28px;
+		font-size: 20px;
 		padding-right: 1rem;
 	}
 	.main-menu ul {
@@ -333,21 +335,24 @@ button {
 		top: 10%;
 	}
 	.main-menu ul li {
-		padding: 10px 20px;
+		padding: 10px 15px;
 		font-size: 15px;
+	}
+	input[type="search"], .btn-search {
+		padding: 5px;
+	}
+	.search {
+		margin: 5px 5px;
 	}
 	.focused {
 		margin-top: 20px;
 	}
 	.focused .title::before {
-		height: 25%;
+		height: 30%;
 	}
 	.title {
 		font-size: 25px;
 		margin-bottom: 10px;
-	}
-	.mission .title::before {
-		height: 22%;
 	}
 	.top-banner img {
 		float: left;
@@ -377,15 +382,21 @@ button {
 	}
 }
 
-@media screen and (max-width: 371px) {
+@media screen and (max-width: 375px) {
+	.brand a{
+		padding-left: 0;
+	}
 	.main-menu {
-		width: 31rem;
+		width: 21rem;
 	}
 	.search {
 		width: 100%;
 	}
 	.main-menu ul {
-		padding: 50px 20px;
+		padding: 50px 0px;
 		font-size: 16px;
+	}
+	.focused .title::before {
+		height: 24%;
 	}
 }
