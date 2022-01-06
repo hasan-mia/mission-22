@@ -164,7 +164,7 @@ input[type="search"] {
 .focused .title::before {
 	position: absolute;
 	content: "";
-	height: 32%;
+	height: 35%;
 	background: #FF5959;
 	width: 5px;
 	left: -10px;
